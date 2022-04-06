@@ -35,7 +35,7 @@ class slidable extends StatelessWidget {
                     backgroundColor: Colors.orange,
                     foregroundColor: Colors.white,
                     icon: Icons.edit,
-                    label: 'Chỉnh sửa',
+                    label: 'github',
                   ),
                   SlidableAction(
                     onPressed: (context) {
