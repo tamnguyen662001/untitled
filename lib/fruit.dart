@@ -8,6 +8,7 @@ final allFruit = [
       gia: 1200,
       url:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVvXnn2zWO2Q6MkJv-RPBTQJCaVW0rdUY3CVh3eP1hSnkDOP6uVd0sQLle9GIBYJPLb4I&usqp=CAU'),
+
   Fruit(
       ten: "Chanh",
       gia: 1500,

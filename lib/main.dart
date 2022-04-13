@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Album Photo'),
+          title: Text('Bài Tập Flutter _ Lập trình Android'),
+          centerTitle: true,
         ),
         body: homepage(),
       ),
