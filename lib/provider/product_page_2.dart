@@ -50,7 +50,7 @@ class ListProduct extends StatelessWidget {
                             backgroundColor: Colors.green,
                             foregroundColor: Colors.white,
                             icon: Icons.edit,
-                            label: 'Chỉnh sửa',
+                            label: 'Sửa',
                           ),
                           SlidableAction(
                             onPressed: (context) => List.hienThiDialong(context, i),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/formgridview.dart';
 import 'package:untitled/input.dart';
 import 'package:untitled/listview.dart';
+import 'package:untitled/provider/counter_page.dart';
 import 'package:untitled/provider/myapp_provider.dart';
 import 'package:untitled/provider/product_page_2.dart';
 import 'package:untitled/provider/slidable.dart';
@@ -24,6 +25,8 @@ class homepage extends StatelessWidget {
 
             buttonBuilder(context, title: "slidable_1", destination: slidable()),
             buttonBuilder(context, title: "slieable_2", destination: ListProduct()),
+            buttonBuilder(context, title: " counter_page", destination:  myapp_provider()),
+
           ],
         ),
       ),
