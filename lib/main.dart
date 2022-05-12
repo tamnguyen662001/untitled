@@ -102,3 +102,10 @@ class _HomePageState extends State<HomePage> {
 
 /*Image.network(lits[i])
 gọi lại hàm setState() để vẽ lại giao diện*/
+
+// void readuser2() async{
+//   if(users == null){
+//     await databaseHelper!.open();
+//     _user = await databaseHelper.getUser();
+//   }
+// }

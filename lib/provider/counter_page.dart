@@ -17,6 +17,7 @@ class counter_page extends StatelessWidget {
       ),
       body: Column(
         children: [
+         // ElevatedButton(onPressed:() => Navigator.pop(context), child: Text("Back home")),
           Text("Number on pressed : "),
           // Consumer<Counter_provider>(builder:(context, Counter_provider, child) {
           //   return Text("${Counter_provider.value}");
@@ -25,8 +26,10 @@ class counter_page extends StatelessWidget {
           FutureBuilder <int>(future: counter_provider.getValue(), builder: (context, snapshot){
             return Text("${snapshot.data}");
           },)
+
         ],
       ),
+
       floatingActionButton: IconButton(
         icon: Icon(Icons.add),
         onPressed: (){
@@ -34,6 +37,7 @@ class counter_page extends StatelessWidget {
           provider.increament();
         },
       ),
+
     );
   }
 }

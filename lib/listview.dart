@@ -106,3 +106,4 @@ class _MyListViewPageState extends State<MyListViewPage> {
 
 // dùng phương thức map với đầu vào là 1 string, đầu ra trả về một widget
 // card
+

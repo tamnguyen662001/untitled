@@ -25,7 +25,7 @@ class Counter_provider extends ChangeNotifier{
   void increament() async {
     _value++;
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    sharedPreferences.setInt("Counter_provider", ++_value).whenComplete(() => notifyListeners() );
+    sharedPreferences.setInt("Counter_provider", _value).whenComplete(() => notifyListeners() );
     //notifyListeners();// sau khi tang muon cap nhat lai thi goi notifylistenner
 
   }

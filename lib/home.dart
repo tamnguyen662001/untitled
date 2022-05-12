@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/CPU-Z2.dart';
+import 'package:untitled/Photo_json.dart';
+import 'package:untitled/cpu-z.dart';
 import 'package:untitled/formgridview.dart';
 import 'package:untitled/input.dart';
 import 'package:untitled/listview.dart';
@@ -26,6 +29,9 @@ class homepage extends StatelessWidget {
             buttonBuilder(context, title: "slidable_1", destination: slidable()),
             buttonBuilder(context, title: "slieable_2", destination: ListProduct()),
             buttonBuilder(context, title: " counter_page", destination:  myapp_provider()),
+            buttonBuilder(context, title: " jsondata", destination: PhotoPage()),
+            buttonBuilder(context, title: " cpuz", destination: CPU_Z()),
+            buttonBuilder(context, title: " cpuz_2", destination: CPU_Z2()),
 
           ],
         ),
