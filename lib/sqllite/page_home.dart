@@ -63,16 +63,7 @@ class _PageListUserSQLiteState extends State<PageListUserSQLite> {
                   endActionPane: ActionPane(
                     motion: DrawerMotion(),
                     children: [
-                      SlidableAction(
-                        icon: Icons.details,
-                        foregroundColor: Colors.green,
-                        backgroundColor: Colors.green[50]!,
-                        onPressed: (context){
-                          Navigator.of(context).push(
-                            MaterialPageRoute(builder: (context) => PageUserDetail(xem: true, user: user,),)
-                          );
-                        },
-                        ),
+
                       SlidableAction(
                         icon: Icons.details,
                         foregroundColor: Colors.green,
